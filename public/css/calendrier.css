@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightcyan !important;
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav h2 {
+    font-family: 'Dawning of a New Day', cursive;
+    color:#4B0082;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.affichageMoisAnnee {
+    display: flex;
+    justify-content: center;
+}
+
+.fleche {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:cadetblue;
+    border:transparent;
+    border-radius:3px;
+}
+
+.fleche:hover {
+    background-color:steelblue;
+}
+
+.calendar {
+    border-collapse: collapse;
+}
+
+.fa-long-arrow-left, .fa-long-arrow-right {
+    color: #fff;
+}
+
+nav i {
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+.calendar {
+    width: 100%;
+    height: calc(100vh - 128px);
+}
+
+.calendar td {
+    border: 1px solid silver;
+    padding: 10px;
+    vertical-align: top;
+    width: 14.29%; /* 100/7 jours */
+    height: 20%; /* car 5 semaines donc 100/5 */
+}
+
+.calendar-table-6weeks td {
+    height: 16.66%;
+}
+
+.weekday {
+    font-weight: bold;
+    color: 	cadetblue;
+    font-size: 1.2em ;
+}
+
+.fa-thumb-tack {
+    color: darkslategray;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.fa-thumb-tack:hover {
+    font-size: x-large;
+}
+
+.fa-times {
+    color:crimson;
+}
+
+.fa-times:hover {
+    font-size: x-large;
+}
+
+td:hover {
+    background-color: aliceblue;
+}
+
+.indisponible {
+    color:black;
+}
+
+.fa-chevron-circle-left {
+    color:#4B0082;
+}
+
+.booked {
+    color:limegreen;
+    font-size: x-large;
+}
+
+.other {
+    color:orange;
+    font-size: x-large;
+}

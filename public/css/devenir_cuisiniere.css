@@ -1,0 +1,140 @@
+#cuisiniere .quote {
+    border:5px groove #2E8B57;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #8FBC8F;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cuisiniere .form-title {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration-line: overline underline;
+    color:#D4AF37;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#cuisiniere form {
+    text-align: center;
+}
+
+#cuisiniere form label {
+    font-family: 'Special Elite', cursive;
+    font-size: larger;
+}
+
+#cuisiniere .form-input {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#574d44;
+    font-size: large;
+}
+
+#cuisiniere p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color:#574d44;
+}
+
+#cuisiniere .week-input {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+#cuisiniere .erreur-dispo {
+    margin-bottom: 5px;
+}
+
+#cuisiniere span {
+    display: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#cuisiniere .send {
+    border:none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#E6BE8A;
+    margin-bottom: 60px;
+}
+
+#cuisiniere .send:hover {
+    background-color:#C5B358;
+}
+
+#cuisiniere .alert p {
+    color:#DC143C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+}
+
+#cuisiniere .alert i {
+    color:#DC143C;
+    margin-right: 10px;
+}
+
+#cuisiniere .alert {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1220px) {
+
+    #cuisiniere .form-input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #cuisiniere .form-input {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+
+    #cuisiniere .form-input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    #cuisiniere .form-input {
+        width: 80%;
+    }
+
+    #cuisiniere .quote {
+        margin-top:30px;
+    }
+
+    #cuisiniere .form-title {
+        margin-top:30px;
+    }
+
+    #cuisiniere .send {
+        margin-bottom:30px;
+    }
+}

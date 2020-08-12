@@ -1,0 +1,72 @@
+#colis .container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+}
+
+#colis .container h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    color:#C71585;
+    text-align: left;
+    margin-bottom: 30px;
+    text-decoration-line: overline underline;
+}
+
+#colis .container p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    text-align: center;
+}
+
+#colis .container a {
+    font-size: x-large;
+    color: #9370DB;
+    text-decoration: underline;
+}
+
+#colis .container a:hover {
+    font-size: x-large;
+    color:#8B008B;
+    text-decoration: underline;
+}
+
+#colis img {
+    max-width: 50%;
+    height: auto;
+    display:block;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    filter: grayscale(70%);
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+@media screen and (max-width: 720px) {
+
+    #colis img {
+        max-width: 85%;
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #colis .container {
+        margin-top:30px;
+        max-width:100%;
+    }
+
+    #colis img {
+        margin-top:30px;
+        margin-bottom:30px;
+        max-width:90%;
+    }
+
+    #colis .container h2 {
+        text-align:center;
+    }
+}

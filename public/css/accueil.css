@@ -1,0 +1,138 @@
+#accueil  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#accueil  .logo {
+    text-align: center;
+}
+
+#accueil  .logo img {
+    border-radius: 200px;
+    border: 2px solid #DAA520;
+}
+
+#accueil  h2 {
+    font-family: 'Dawning of a New Day', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#accueil  hr {
+    max-width: 50%;
+    margin: auto;
+    background-color: black;
+    opacity: 0.2;
+}
+
+#accueil .histoire .subtitle {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #8B4513;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration-line: overline underline;
+}
+
+#accueil .histoire p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    text-align: center;
+}
+
+#accueil .histoire {
+    max-width: 70%;
+    margin: auto;
+    height:auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#accueil .histoire img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+#accueil .histoire .subtitle2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #FF4500;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+}
+
+#accueil .histoire .para2 {
+    text-align: center;
+}
+
+#accueil .histoire iframe {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+#accueil .histoire .subtitle3 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: end;
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy ;
+    color:#1E90FF;
+}
+
+#accueil .histoire .para3 {
+    text-align: end;
+}
+
+#accueil .histoire b {
+    font-size: larger;
+}
+
+@media screen and (max-width: 540px) {
+    #accueil .logo img {
+    width:220px;
+}
+
+#accueil  h1 {
+    margin-top:0px;
+}
+
+#accueil .histoire .subtitle, #accueil .histoire .subtitle2, #accueil .histoire .subtitle3 {
+    margin-bottom:10px;
+}
+
+#accueil .histoire img {
+    max-width:90%;
+    height:auto;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+
+#accueil .histoire iframe {
+    margin-bottom:30px;
+    margin-top:20px;
+    max-width:90%;
+}
+
+#accueil .histoire {
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width:100%;
+}
+
+#accueil .histoire .subtitle3, #accueil .histoire .para3 {
+    text-align:center;
+}

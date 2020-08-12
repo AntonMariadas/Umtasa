@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../images/wallpaper/bois.jpg) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: xx-large;
+    text-align: center;
+    color:#666600;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.container p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color:#666600;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    font-family: 'Special Elite', cursive;
+    font-size: larger;
+}
+
+span {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.form-input {
+    width: 40vh;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#574d44;
+    font-size: large;
+}
+
+
+.week-input {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.event {
+    margin-bottom: 0;
+}
+.send {
+    border:none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#E6BE8A;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color:#C5B358;
+}
+
+.fa-chevron-circle-left {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .form-input {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .form-input {
+        width: 50vh;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .form-input {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .form-input {
+        width: 55vh;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .send {
+        margin-bottom: 30px;
+    }
+}

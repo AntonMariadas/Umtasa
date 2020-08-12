@@ -1,0 +1,78 @@
+#maraude .container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#maraude .container h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    color:#DB7093;
+    text-align: left;
+    margin-bottom: 30px;
+    text-decoration-line: overline underline;
+}
+
+#maraude .container p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    text-align: center;
+}
+
+#maraude .container .photos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+#maraude .photos img {
+    max-width: 40%;
+    height: auto;
+    border:transparent;
+    border-radius:5px;
+}
+
+@media screen and (max-width: 960px) {
+
+    #maraude .container .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #maraude .photos img {
+        max-width:  50%;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    #maraude .photos img {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    #maraude .photos img {
+        max-width: 80%;
+        height:350px;
+    }
+
+    #maraude .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width:100%;
+    }
+
+    #maraude .container h2 {
+        text-align:center;
+    }
+}

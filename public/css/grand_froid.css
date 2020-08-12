@@ -1,0 +1,52 @@
+#froid .container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#froid .container h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    color: #191970;
+    text-align: left;
+    margin-bottom: 30px;
+    text-decoration-line: overline underline;
+}
+
+#froid .container p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    height: auto;
+    text-align: center;
+}
+
+#froid iframe {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 540px) {
+    #froid .container {
+        margin-top:30px;
+        margin-bottom:30px;
+        max-width:100%;
+    } 
+
+    #froid iframe {
+        margin-top:30px;
+        max-width:90%;
+    }
+
+    #froid .container h2 {
+        text-align:center;
+    }
+}

@@ -1,0 +1,143 @@
+#distribution .container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#distribution .container h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    color: #191970;
+    text-align: left;
+    text-decoration-line: overline underline;
+}
+
+#distribution .para p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    max-width: 50%;
+    height: auto;
+}
+
+#distribution .para img {
+    max-width: 40%;
+    height: auto;
+}
+
+#distribution .para {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#distribution .container .subtitle {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: x-large;
+    color: #CD5C5C;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+}
+
+#distribution table {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+#distribution th, #distribution td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#distribution .peugeot {
+    color: green;
+}
+
+#distribution .hotel {
+    color: red;
+}
+
+#distribution span {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    padding-left: 10px;
+
+}
+
+#distribution .point {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #distribution .para {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #distribution .para img {
+        max-width: 60%;
+        height: auto;
+        display:block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    #distribution .para p {
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+    #distribution .para img {
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    #distribution .para img {
+        max-width: 80%;
+    }
+
+    #distribution .container {
+        margin-top:30px;
+        margin-bottom:30px;
+        max-width:100%;
+    }
+
+    #distribution .para {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    #distribution .container .subtitle {
+        margin-top:30px;
+    }
+
+    #distribution .container h2 {
+        text-align:center;
+    }
+
+    #distribution i {
+        font-size: 150%;
+    }
+}

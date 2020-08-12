@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/wallpaper/wood3.jpg) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-size:xx-large;
+    color: black;
+    margin-bottom: 30px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#FFFACD;
+}
+
+nav {
+    max-width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+nav a {
+    font-family: 'Comic Neue', cursive;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bolder;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgba(255,218,185,0.9);
+    padding: 5px;
+    box-shadow: 0 8px 6px -6px black;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(250,235,215,0.9);
+}
+
+.lien-distributeurs {
+    color: #009879;
+    cursor: pointer;
+}
+
+.lien-cuisinieres {
+    color: #FF6347;
+    cursor: pointer;
+}
+
+.lien-messages {
+    color: #4682B4;
+    cursor: pointer;
+}
+
+.lien-equipes {
+    color: gray;
+    cursor: pointer;
+}
+
+.lien-calendrier {
+    color: black;
+}
+
+.lien-planning {
+    color:rosybrown;
+}
+
+.lien-deconnexion {
+    background-color: #B22222;
+    color: white;
+    cursor: pointer;
+}
+
+.lien-deconnexion:hover {
+    background-color: #FF0000;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.content-table thead tr {
+    background-color: rgba(0,152,121, 1);
+    color:#FFFACD;
+    text-align: left;
+}
+
+.content-table tr th {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+    font-size: large;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-family: sans-serif;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color:#F5F5DC;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid grey;
+}
+
+.content-table tbody tr.active-row {
+    color: #009879;
+
+}
+
+.cat {
+    background-color:#FF6347 !important;
+}
+
+.cat2 {
+    background-color:#4682B4 !important;
+}
+
+.cat3 {
+    background-color: rosybrown !important;
+}
+
+.cat4 {
+    background-color:darkgray !important;
+}
+
+form {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+form .valider {
+    border:transparent;
+    background-color:#A9A9A9;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: large;
+    margin: 5px;
+    color:white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+form .valider:hover {
+    background-color:#696969;
+    color:#FFFACD;
+    cursor:pointer;
+}
+
+form select {
+    border:transparent;
+    padding: 3px;
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.equipes ul {
+    text-align: center;
+}
+
+.equipes ul li {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.distrib, .cuisto {
+    background-color:rgba(0,0,0,0.7);
+    border: transparent;
+    border-radius: 5px;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+}
+
+.distrib {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.distrib ul li {
+    color: #009879;
+}
+
+.cuisto ul li {
+    color: #FF6347;
+}
+
+#search {
+    border: transparent;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    color:black;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.delete {
+    text-decoration: none;
+    color: white;
+    border:transparent;
+    background-color: #CD5C5C;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.delete:hover {
+    background-color: #B22222;
+}
+
+.add {
+    text-decoration: none;
+    color:white;
+    border: transparent;
+    background-color:#228B22;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.add:hover {
+    background-color:darkgreen;
+}
+
+ul li {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+    color:#009879;
+}
+
+ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color:white;
+    border:transparent;
+    background-color: #CD5C5C;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+ul li a:hover {
+    background-color:#B22222;
+}
+
+.affichage-equipe {
+    background-color:rgba(0,0,0,0.8);
+    border-radius:5px;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+ul {
+    min-width:300px;
+    height: auto;
+}
+
+.indisponible {
+    background-color:darkorange;
+}
+
+.indisponible:hover {
+    background-color:darkorange;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    border-radius: 200px;
+    border: 2px solid #DAA520;
+}
+
+span {
+    font-family: sans-serif;
+    text-decoration: none;
+    color:white;
+    border:transparent;
+    background-color: black;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    nav a {
+        font-size: larger;
+    }
+
+    .lien-distributeurs {
+        background-color:#009879;
+        color:white;
+    }
+    
+    .lien-cuisinieres {
+        background-color: #FF6347;
+        color:white;
+    }
+    
+    .lien-messages {
+        background-color: #4682B4;
+        color:white;
+    }
+    
+    .lien-equipes {
+        background-color:gray;
+        color:white;
+    }
+
+    .lien-calendrier {
+        background-color:black;
+        color:white;
+    }
+
+    .lien-planning {
+        background-color:rosybrown;
+        color:white;
+    }
+
+    .lien-distributeurs:hover {
+        color:#009879;
+    }
+    
+    .lien-cuisinieres:hover {
+        color:#FF6347;
+    }
+    
+    .lien-messages:hover {
+        color:#4682B4;
+    }
+    
+    .lien-equipes:hover {
+        color:gray;
+    }
+
+    .lien-calendrier:hover {
+        color:black;
+    }
+
+    .lien-planning:hover {
+        color:rosybrown;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    .container {
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+
+    h2 {
+        margin-top: 10px;
+    }
+
+    .logo img {
+        max-width: 180px;
+    }
+
+    ul a {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+

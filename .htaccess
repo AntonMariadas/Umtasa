@@ -1,0 +1,42 @@
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^accueil$ index.php?page=accueil
+RewriteRule ^distribution$ index.php?page=distribution
+RewriteRule ^colis-alimentaire$ index.php?page=colis
+RewriteRule ^maraudes$ index.php?page=maraudes
+RewriteRule ^grand-froid$ index.php?page=froid
+RewriteRule ^aid$ index.php?page=aid
+RewriteRule ^partenaire$ index.php?page=partenaire
+RewriteRule ^distribuer$ index.php?page=distributeur
+RewriteRule ^cuisiner$ index.php?page=cuisiniere
+RewriteRule ^contact$ index.php?page=contact
+RewriteRule ^espace-membre$ index.php?page=espace-membre
+
+ErrorDocument 404 /Umtasa/view/404.php
+
+Options -Indexes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

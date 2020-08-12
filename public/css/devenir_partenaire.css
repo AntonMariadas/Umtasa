@@ -1,0 +1,142 @@
+#partenaire .container {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#partenaire .container2 {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#partenaire .partenaire {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#partenaire h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #9370DB;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration-line: overline underline;
+    margin-bottom: 30px;
+}
+
+#partenaire ul {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#partenaire .recolte {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border: transparent;
+    border-radius: 15px;
+    filter: grayscale(70%);
+}
+
+#partenaire .subtitle {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #6495ED;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+#partenaire p {
+    color:#574d44;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
+
+#partenaire span {
+    font-weight: bolder ;
+}
+
+#partenaire .subtitle2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    color: #A52A2A;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: wavy ;
+}
+
+#partenaire .partenaire {
+    text-align: right;
+    max-width: 100%;
+    height: auto;
+}
+
+#partenaire .partenaire img {
+    max-width: 200px;
+    height: auto;
+    border:none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 960px) {
+
+    #partenaire .recolte {
+        max-width: 70%;
+        height: auto;
+    }
+
+    #partenaire .partenaire img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    #partenaire .recolte {
+        max-width: 90%;
+        height: auto;
+    }
+
+    #partenaire .partenaire img {
+        max-width: 120px;
+    }
+
+    #partenaire .partenaire {
+        text-align:center;
+    }
+
+    #partenaire .container {
+        margin-top:30px;
+    }
+
+    #partenaire .subtitle {
+        margin-top:30px;
+        text-align:center;
+    }
+
+    #partenaire .subtitle2 {
+        margin-top:30px;
+        text-align:center;
+    }
+
+    #partenaire .container2 {
+        max-width:100%;
+        margin-bottom:30px;
+    }
+
+    #partenaire .container2 P {
+        text-align:center;
+    }
+}

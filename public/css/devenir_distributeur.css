@@ -1,0 +1,130 @@
+#distributeur h2 {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: xx-large;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top:30px;
+}
+
+#distributeur p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color:#574d44;
+}
+
+#distributeur .form-title {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration-line: overline underline;
+    color: #5F9EA0;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#distributeur form {
+    text-align: center;
+    margin-bottom:60px;
+}
+
+#distributeur form label {
+    font-family: 'Special Elite', cursive;
+    font-size: larger;
+}
+
+
+#distributeur .form-input {
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #FFEFD5;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#574d44;
+    font-size: large;
+}
+
+#distributeur span {
+    display: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#distributeur .erreur-dispo, #distributeur .erreur-genre, #distributeur .erreur-permis {
+    margin-bottom: 5px;
+}
+
+#distributeur .week-input {
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#distributeur .event {
+    margin-bottom: 0;
+}
+#distributeur .send {
+    border:none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#5F9EA0;
+}
+
+#distributeur .send:hover {
+    background-color:#20B2AA;
+}
+
+#distributeur .modal {
+    display: none ;
+}
+
+
+@media screen and (max-width: 1220px) {
+
+    #distributeur .form-input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #distributeur .form-input {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+
+    #distributeur .form-input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    #distributeur .form-input {
+        width: 80%;
+    }
+
+    #distributeur h2 {
+        margin-top:0px;
+    }
+
+    #distributeur .form-title {
+        margin-top:30px;
+    }
+
+    #distributeur .week-input {
+        margin-right:0px;
+    }
+
+    #distributeur form {
+        margin-bottom:30px;
+    }
+}

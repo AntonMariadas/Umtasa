@@ -1,0 +1,87 @@
+#membre .login h2 {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:10px;
+}
+
+#membre .login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+#membre .login i {
+    color:#006400;
+}
+
+#membre .login label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#membre .login form {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom:10px;
+}
+
+#membre .login .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+}
+
+#membre .login .form-submit {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background: #CD5C5C;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    width:100%;
+}
+
+#membre .login .form-submit:hover {
+    background:#B22222;
+}
+
+@media screen and (max-width: 720px) {
+
+    #membre .login {
+        width:250px;
+    }
+
+    #membre .login form {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #membre .login {
+        position:static;
+        display:block;
+        transform: translate(0%, 0%);
+        margin:auto;
+        margin-top:20%;
+        margin-bottom:20%;
+
+    }
+}

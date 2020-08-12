@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../images/wallpaper/bois.jpg) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top:10px;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profil {
+    margin-bottom: 100px;
+}
+
+.profil h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    color:#4B0082;
+}
+
+.liens {
+    margin-top: 15px;
+}
+
+.liens a {
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border:transparent;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.edition {
+    background-color:#CFB53B;
+}
+
+.edition:hover {
+    background-color:#FFA500;
+}
+
+.deconnexion {
+    background-color:#CD5C5C;
+}
+
+.deconnexion:hover {
+    background-color: #DC143C;
+}
+
+.msg {
+    background-color: #BC8F8F;
+}
+
+.msg:hover {
+    background-color:#DB7093;
+}
+.calendrier {
+    background-color: cadetblue ;
+}
+
+.calendrier:hover {
+    background-color:lightseagreen;
+}
+
+.planning {
+    background-color: darkseagreen;
+}
+
+.planning:hover {
+    background-color:mediumseagreen;
+}
+
+.title-message {
+    font-family: 'Dawning of a New Day', cursive;
+    color:#4B0082;
+    margin-bottom: 10px;
+}
+
+.title-planning {
+    font-family: 'Dawning of a New Day', cursive;
+    color:#4B0082;
+    margin-bottom: 20px;
+}
+
+#sujet {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    background-color:rgba(0,0,0,0.6);
+    color: beige;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    width: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+}
+
+.envoyer {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #BC8F8F;
+    margin: 10px;
+
+}
+
+.envoyer:hover {
+    background-color: #DB7093;
+}
+
+.title-planning {
+    font-family: 'Dawning of a New Day', cursive;
+    
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.content-table thead tr {
+    background-color: rgba(0,0,0, 0.7);
+    color:#FFFACD;
+    text-align: center;
+}
+
+.content-table tr th {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+    font-size: large;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    font-family: sans-serif;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color:#F5F5DC;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid grey;
+}
+
+.content-table tbody tr.active-row {
+    color: #009879;
+
+}
+
+.erreur p {
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom:60px;
+}
+
+.logo img {
+    max-width: 80%;
+    border: transparent;
+    border-radius: 10px;
+    filter:grayscale(90%);
+    margin-top: 30px;
+    min-height: 250px;
+}
+
+.cuisinieres-onglet {
+    margin-top: 60px;
+    margin-bottom: 60px;
+} 
+
+.message {
+    margin-top: 60px;
+}
+
+
+
+.cat {
+    background-color:darkseagreen !important;
+}
+
+@media screen and (max-width: 1400px) {
+
+    form textarea {
+        width: 70%;
+    }
+
+    #sujet {
+        width: 70%;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    form textarea {
+        width: 70%;
+    }
+
+    #sujet {
+        width: 70%;
+    }
+
+    .liens {
+        display:flex;
+        flex-direction: column;
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    form textarea {
+        width: 70%;
+    }
+
+    #sujet {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    form textarea {
+        width:100%;
+    }
+
+    #sujet {
+        width: 80%;
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    .content-table {
+        min-width: 350px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+
